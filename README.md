@@ -39,3 +39,6 @@ Change the theme from top left corner.
 ![App Screenshot](./ocean.png)
 ### mauve:
 ![App Screenshot](./mauve.png)
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
