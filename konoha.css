@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Itim';
+    src: url('Itim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root
+{
+    --border: #41652d;
+    --main: #d4df9e;
+}
+
+* {
+    font-family: 'Itim', sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--main);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover, .note:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    flex-direction: column;
+    width: 375px;
+    height: 608px;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: var(--border);
+}
+
+#date {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: var(--border);
+}
+
+#time {
+    font-size: 0.68rem;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    color: var(--border);
+}
+
+
+#sup {
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.7s;
+    animation: sup 600s infinite;
+}
+
+#sup:hover {
+    color: #124578;
+}
+.inputs {
+    width: 89%;
+    padding: 13px;
+}
+
+#input {
+    border: 1px solid var(--border);
+    outline: none;
+    background-color: #b2bd7c;
+    border-radius: 13px;
+    padding: 13px;
+    color: var(--border);
+    width: 77%;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+#input:hover {
+    transform: scale(1.01);
+}
+
+.addBtn, .clearBtn, .exitBtn {
+    border: 1px solid var(--border);
+    width: 23%;
+    border-radius: 13px;
+    padding: 13px;
+    font-weight: 600;
+}
+
+.addBtn {
+    color: var(--main);
+    background: var(--border);
+}
+
+.clearBtn {
+    color: var(--main);
+    background: #cf437d;
+}
+
+.addBtn svg, .clearBtn svg {
+    fill: var(--main);
+}
+
+
+.exitBtn {
+    color: var(--main);
+    background: #422800;
+}
+
+.clearBtn:disabled {
+    background: #ad215b;
+}
+
+#notesBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--border);
+    margin-top: 21px;
+    width: 89%;
+    height: 66%;
+    overflow: scroll;
+    transition: .5s;
+}
+
+#notesBox::-webkit-scrollbar {
+    display: none;
+}
+
+.btnsBox {
+    width: 89%;
+    height: 5%;
+    padding: 21px 21px;
+    border-top: 2px solid var(--border);
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.note {
+    position: relative;
+    width: 91%;
+    max-width: 91%;
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 13px;
+    transition: 0.3s;
+}
+
+.note:hover {
+    border: 3px solid var(--border);
+    margin-top: 13px;
+    transform: rotate(2deg) scale(1.01);
+}
+
+.body {
+    font-size: 0.85rem;
+    overflow: hidden;
+}
+
+.btnGroup {
+    margin-left: 8px;
+}
+
+.helpBtn {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+.themeBtn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#themeName {
+    position: absolute;
+    top: 5px;
+    left: 34px;
+    font-size: 0.7rem;
+    color: var(--border);
+}
+
+
+.deleteBtn, .editBtn, .helpBtn, .themeBtn {
+    border: none;
+    background: transparent;
+    margin-right: 8px;
+}
+
+.deleteBtn svg {
+    fill: #70321c;
+}
+
+.editBtn svg {
+    fill: #4a4b2f;
+}
+
+.helpBtn svg {
+    fill: var(--border);
+}
+
+.themeBtn svg {
+    fill: var(--border);
+}
+
+.hlight {
+    color: #128875;
+}
+
+@keyframes deleteNote {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        box-shadow: inset 20px 20px 40px var(--border);
+        filter: blur(2px);
+        transform: scale(0.01) rotate(360deg);
+    }
+}
+
+
+@keyframes create {
+    0% {
+        width: 0%;
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        filter: brightness(1);
+        opacity: 1;
+    }
+}
+
+@keyframes closing {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.02;
+        filter: blur(5px);
+    }
+}
+
+@keyframes sup {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

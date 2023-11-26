@@ -1,0 +1,18 @@
+{
+  "name": "mashnotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "author": "Mash",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.2"
+  },
+  "dependencies": {
+    "open": "^9.1.0",
+    "sqlite3": "^5.1.6"
+  }
+}
