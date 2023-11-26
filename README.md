@@ -29,13 +29,13 @@
    ```
 ## Themes
 Change the theme from top left corner.
-###notia:
+### notia:
 ![App Screenshot](./MashNotes.png)
-###megatron:
+### megatron:
 ![App Screenshot](./MashNotes.png)
-###konoha:
+### konoha:
 ![App Screenshot](./MashNotes.png)
-###ocean:
+### ocean:
 ![App Screenshot](./MashNotes.png)
-###mauve:
+### mauve:
 ![App Screenshot](./MashNotes.png)
