@@ -22,7 +22,7 @@
 ### Steps
 
    ```bash
-   git clone https://github.com/Mohamed-Abbas-Homani/Electrone-NotesApp.git
+   git clone https://github.com/Mohamed-Abbas-Homani/Electron-NotesApp.git
    cd Electron-NotesApp
    npm install
    npm start
