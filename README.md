@@ -27,3 +27,15 @@
    npm install
    npm start
    ```
+## Themes
+Change the theme from top left corner.
+notia:
+![App Screenshot](./MashNotes.png)
+megatron:
+![App Screenshot](./MashNotes.png)
+konoha:
+![App Screenshot](./MashNotes.png)
+ocean:
+![App Screenshot](./MashNotes.png)
+mauve:
+![App Screenshot](./MashNotes.png)
