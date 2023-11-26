@@ -1,6 +1,6 @@
 # Awesome Electron Notes App
 
-![App Screenshot](./MashNotes.png)
+![App Screenshot](./notia.png)
 
 > A beautiful Electron notes app with themes to keep your thoughts organized.
 
