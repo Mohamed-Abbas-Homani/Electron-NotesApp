@@ -41,4 +41,6 @@ Change the theme from top left corner.
 ![App Screenshot](./mauve.png)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
