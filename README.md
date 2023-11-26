@@ -32,10 +32,10 @@ Change the theme from top left corner.
 ### notia:
 ![App Screenshot](./MashNotes.png)
 ### megatron:
-![App Screenshot](./MashNotes.png)
+![App Screenshot](./megatron.png)
 ### konoha:
-![App Screenshot](./MashNotes.png)
+![App Screenshot](./konoha.png)
 ### ocean:
-![App Screenshot](./MashNotes.png)
+![App Screenshot](./ocean.png)
 ### mauve:
-![App Screenshot](./MashNotes.png)
+![App Screenshot](./mauve.png)
